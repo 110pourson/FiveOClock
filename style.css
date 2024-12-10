@@ -1,0 +1,16 @@
+.fond{
+    background-color: #B53230;
+}
+iframe{
+    border-radius: 10px;
+    flex: col -8;
+}
+.carousel-inner {
+    align-content: center;
+    justify-items: center;
+}
+.carousel-item {
+    justify-items: center;
+    grid
+}
+

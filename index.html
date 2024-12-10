@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>110 Pour Son</title>
+  <!-- Bootstrap stuff -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="fond">
+  <!-- Barre de navigation -->
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">110 Pour Son</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Acceuil</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Nous joindre</a></li>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Trouver</button>
+            </form>
+        </ul>
+        </header>
+    </div>
+  
+    <!-- Acceuil -->
+    <div class="container px-4 py-4" id="featured-3">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon rounded-3 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+                    <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"></path>
+                    <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z"></path>
+                    <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"></path>
+                  </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Répertoire</h3>
+            <p>Nous interprétons des chansons populaires des 50 dernières années.</p>
+            <a href="#" class="icon-link">
+              Voir la liste
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon rounded-3 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="currentColor" class="bi bi-balloon-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.48 10.901C11.211 10.227 13 7.837 13 5A5 5 0 0 0 3 5c0 2.837 1.789 5.227 4.52 5.901l-.244.487a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2 2 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224zM4.352 3.356a4 4 0 0 1 3.15-2.325C7.774.997 8 1.224 8 1.5s-.226.496-.498.542c-.95.162-1.749.78-2.173 1.617a.6.6 0 0 1-.52.341c-.346 0-.599-.329-.457-.644"></path>
+                    </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Événements</h3>
+            <p>Nous jouons pour des bonnes causes et pour le plaisir.</p>
+            <a href="#" class="icon-link">
+              En savoir plus
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon rounded-3 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="currentColor" class="bi bi-headphones" viewBox="0 0 16 16">
+                    <path d="M8 3a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a6 6 0 1 1 12 0v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1V8a5 5 0 0 0-5-5"></path>
+                  </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Studio</h3>
+            <p>Le studio permet de pratiquer, enregister, et faire des prestations en ligne.</p>
+            <a href="#" class="icon-link">
+              Photos, plans et acoustique.
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon rounded-3 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="32" fill="currentColor" class="bi bi-cassette-fill" viewBox="0 0 16 16">
+                <path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h.191l1.862-3.724A.5.5 0 0 1 4 10h8a.5.5 0 0 1 .447.276L14.31 14h.191a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zM4 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2m8 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2M6 6a1 1 0 0 1 1-1h2a1 1 0 0 1 0 2H7a1 1 0 0 1-1-1"></path>
+                <path d="m13.191 14-1.5-3H4.309l-1.5 3z"></path>
+              </svg>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Enregistrements</h3>
+          <p>Nos enregistrements sonores au fil des années</p>
+          <a href="#" class="icon-link">
+            Écoutez pour voir
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon rounded-3 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="currentColor" class="bi bi-boxes" viewBox="0 0 16 16">
+                <path d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434zM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567zM7.5 9.933l-2.75 1.571v3.134l2.75-1.571zm1 3.134 2.75 1.571v-3.134L8.5 9.933zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567zm2.242-2.433V3.504L8.5 5.076V8.21zM7.5 8.21V5.076L4.75 3.504v3.134zM5.258 2.643 8 4.21l2.742-1.567L8 1.076zM15 9.933l-2.75 1.571v3.134L15 13.067zM3.75 14.638v-3.134L1 9.933v3.134z"></path>
+              </svg>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Matériel</h3>
+          <p>L'amour de la musique ne suffit pas. Ça prend des instruments, des micros, des fils, des amplis et bien d'autres choses</p>
+          <a href="#" class="icon-link">
+            Voir l'inventaire
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+          </div>
+        </div>
+      </div>
+
+    <!-- Répertoire -->
+    <div class="container border-top py-4"> 
+      <div class="d-inline-flex align-items-center justify-content-center">
+        <div class="feature-icon rounded-3  text-bg-primary bg-gradient fs-2 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+                <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"></path>
+                <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z"></path>
+                <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"></path>
+            </svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis px-2">Répertoire</h3>
+        </div>
+        <div class="container ratio ratio-16x9 d-flex shadow-lg mb-4">     
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRYrShTg2GBlTasb8eSgHcJul7T4ukVe0NUYe8FhJ61zShcOqHt9LOyZK08mIklO1a1p4JZkDRJWrZI/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        
+      </div>
+    </div> 
+    <!-- Événements -->
+
+    <!-- Studio -->
+    <div class="container border-top py-4">
+      <div class="d-inline-flex align-items-center justify-content-center">
+      <div class="feature-icon rounded-3 d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="currentColor" class="bi bi-headphones" viewBox="0 0 16 16">
+            <path d="M8 3a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a6 6 0 1 1 12 0v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1V8a5 5 0 0 0-5-5"></path>
+        </svg>
+      </div>
+      <h3 class="fs-2 text-body-emphasis px-2">Studio</h3></div>
+      <div class="container" height="100vh">
+        <div id="myCarousel" class="carousel slide mb-6 pb-6" data-bs-ride="carousel" >
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="7" aria-label="Slide 8" class=""></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img src="./Images/Studio/cablage.jpg" height="500px">
+              <div class="container">
+                <div class="carousel-caption text-start">
+                  <p class="opacity-75"></p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Câblage</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <img src="./Images/Studio/Diffuseur-Arr.jpg" height="500px">
+              <div class="container">
+                <div class="carousel-caption">
+                  <p></p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Modèle de diffuseur pour les murs nord et sud. Vue arrière.</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/Studio/Diffuseur-Av.jpg" height="500px">
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <p></p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Modèle de diffuseur pour les murs nord et sud. Vue arrière.</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/Studio/mur-nord.jpg" height="500px">
+              <div class="container">
+                <div class="carousel-caption">
+                  <p></p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Diffuseur du mur nord</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/Studio/mur-sud.jpg" height="500px">
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <p></p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Diffuseur du mur sud</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/Studio/murs-ouest.jpg" height="500px">
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <p></p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Mur ouest avec les pans de mur à angle complémentaire 37 et 53 degrés</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/Studio/plafond.jpg" height="500px" width="500px">
+              <div class="container">
+                <div class="carousel-caption">
+                  <p><a class="btn btn-lg btn-primary" href="#">Installation d'une tuile de mélèze.</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/Studio/reference.jpg" height="500px">
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <p></p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Livres de référence utilisés pour la conception du studio.</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Enregistrements-->
+
+    <!-- Matériel -->
+    <div class="container border-top py-4"> 
+      <div class="d-inline-flex align-items-center justify-content-center">
+        <div class="feature-icon rounded-3 text-bg-primary fs-2 mb-3 p-1">
+            <img src="./Images/Icones/boxes.svg" width="50px" height="40px">
+        </div>
+        <h3 class="fs-2 text-body-emphasis px-2">Matériel</h3>
+      </div>        
+      <div class="album py-5">
+        <div class="container">   
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="./Images/Matos/CE-1000-2000-Manual-125645.png">
+                <div class="card-body">
+                  <p class="card-text">Manuel d'usager pour amplificateur Crown CE-1000</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Voir
+                        <a href="./References/CE-1000-2000-Manual-125645.pdf"></a>
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="./Images/Matos/cerwin-vega-psx-123-12-inch-3-way-loudspeaker.jpg" height="225px" width="140px">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Spécifications pour Cerwin-Vega PSX-123</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="./Images/Matos/JBL_PRX-635.png" height="225px">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Manuel d'usager pour JBL_PRX-635</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Voir</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="./Images/Matos/Mackie DL16S.png" height="225px">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Manuel d'usager pour Mackie DL16S</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Voir</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="./Images/Matos/Mackie 1608DL.png" height="225px">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Manuel d'usager pour Mackie DL1608</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Voir</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="./Images/Matos/Neuman KSM-104.png" height="225px">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Instructions pour Neuman KSM-104</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Voir</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="./Images/Matos/Chauvet SLIM-PAR 64.png" height="225px">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Manuel d'usager Chauvet SLIM-PAR 64</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Voir</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="./Images/Matos/Soundcraft EFX-12.png" height="225px">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Manuel d'usager Soundcraft EFX-12</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Voir</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!-- Pied de page -->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <img src="./Images/Logos/FiveOClock.JPG" height="60px">
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2024 FiveOClock music</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
+    </div>
+    <!-- Bootstrap stuff -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </div> 
+</body>
+</html>
